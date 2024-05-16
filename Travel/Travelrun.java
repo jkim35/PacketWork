@@ -5,7 +5,7 @@ public class Travelrun {
         int i =0;
         do{
             Travel six = new Travel(6+(i*2));
-            int v = six.goByVan();
+            double v = six.goByVan();
             int p = six.goByPlane();
             int c = six.goByCanoe();
             int why = 6+(i*2);
